@@ -1,0 +1,9 @@
+/* index.css */
+@import "tailwindcss";
+
+/* Define your custom design tokens / colors */
+@theme {
+  --color-primaryDark: #1230AE;
+  --color-primaryLight: #874CCC;
+  --color-accentPink: #F27BBD;
+}
