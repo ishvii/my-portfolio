@@ -166,16 +166,12 @@ function App() {
       </header>
 
       {/* Hero */}
-      <section id="home" className="min-h-screen flex items-center justify-center py-20 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
+      <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
         <div className="absolute top-10 left-10 w-20 h-20 bg-accentPink opacity-10 rounded-full blur-xl"></div>
         <div className="absolute bottom-10 right-10 w-32 h-32 bg-primaryDark opacity-10 rounded-full blur-xl"></div>
 
         <div className="text-center max-w-3xl mx-auto px-6 z-10" data-aos="fade-in">
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-primaryDark to-accentPink p-1">
-            <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-primaryDark font-bold text-lg">
-              IG
-            </div>
-          </div>
+         
           <h1 className="text-5xl md:text-6xl font-bold mb-4 text-primaryDark">Hi, I'm <span className="bg-gradient-to-r from-primaryDark to-accentPink bg-clip-text text-transparent">Ishvi Goyal</span></h1>
           <div className="h-8 mb-6">
             <p className="text-xl text-primaryLight font-medium">{heroText}<span className="animate-pulse">|</span></p>
@@ -225,15 +221,15 @@ function App() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="bg-gray-100 px-4 py-2 rounded-lg">
-                  <span className="font-semibold text-primaryDark">2+</span>
+                  <span className="font-semibold text-primaryDark">1+</span>
                   <p className="text-sm text-gray-600">Years Experience</p>
                 </div>
                 <div className="bg-gray-100 px-4 py-2 rounded-lg">
-                  <span className="font-semibold text-primaryDark">15+</span>
+                  <span className="font-semibold text-primaryDark">20+</span>
                   <p className="text-sm text-gray-600">Projects Completed</p>
                 </div>
                 <div className="bg-gray-100 px-4 py-2 rounded-lg">
-                  <span className="font-semibold text-primaryDark">5+</span>
+                  <span className="font-semibold text-primaryDark">10+</span>
                   <p className="text-sm text-gray-600">Technologies</p>
                 </div>
               </div>
@@ -308,7 +304,7 @@ function App() {
       {/* Projects */}
       <section id="projects" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-4 text-primaryDark" data-aos="fade-up">My Projects</h2>
+          <h2 className="text-3xl font-bold text-center mb-4 text-primaryDark" data-aos="fade-up">Key Projects</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primaryDark to-accentPink mx-auto mb-12" data-aos="fade-up"></div>
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, idx) => (
@@ -344,8 +340,8 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-4 text-primaryDark" data-aos="fade-up">Experience</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primaryDark to-accentPink mx-auto mb-12" data-aos="fade-up"></div>
 
-          <div className="max-w-3xl mx-auto" data-aos="fade-up">
-            <div className="bg-white rounded-xl shadow-md p-6 md:p-8">
+          <div className="max-w-full mx-auto" data-aos="fade-up">
+            <div className="bg-white w-full rounded-xl shadow-md p-6 md:p-8">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                 <div>
                   <h3 className="font-bold text-xl text-primaryDark">Software Developer</h3>
@@ -493,7 +489,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-4" data-aos="fade-up">Get in Touch</h2>
           <div className="w-24 h-1 bg-white mx-auto mb-8" data-aos="fade-up"></div>
-          <p className="max-w-2xl mx-auto mb-10 text-lg" data-aos="fade-up">
+          <p className="max-w-full mx-auto mb-10 text-lg" data-aos="fade-up">
             I'm always open to discussing new opportunities, creative ideas, or potential collaborations.
           </p>
           <div className="flex justify-center gap-6 flex-wrap" data-aos="fade-up">
