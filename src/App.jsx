@@ -216,8 +216,7 @@ function App() {
                 With a background in biotechnology, I bring a unique problem-solving approach to software development.
               </p>
               <p className="text-gray-700 mb-6">
-                I enjoy creating seamless user experiences and robust backend systems.
-                Currently, I'm working as a Software Developer at Gatisheel Agritech, where I'm part of the founding team.
+                I enjoy creating seamless user experiences and robust systems.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="bg-gray-100 px-4 py-2 rounded-lg">
